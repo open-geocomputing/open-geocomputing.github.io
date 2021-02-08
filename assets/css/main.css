@@ -4496,6 +4496,7 @@
 	width: 250px;
     opacity: 1;
     filter: brightness(150%);
+	margin-bottom: -70px;
 }
 
 body.is-loading #header {
