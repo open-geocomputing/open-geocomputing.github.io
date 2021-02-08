@@ -1,6 +1,8 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
+
+
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -4481,3 +4483,25 @@
 		}
 
 	}
+
+#header{
+	flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 4rem);
+    max-width: 72rem;
+    margin: 0 auto 0 auto;
+}
+
+#header img{
+	width: 250px;
+    opacity: 1;
+    filter: brightness(150%);
+}
+
+body.is-loading #header {
+	-moz-transform: translateY(2rem);
+	-webkit-transform: translateY(2rem);
+	-ms-transform: translateY(2rem);
+	transform: translateY(2rem);
+	opacity: 0;
+}

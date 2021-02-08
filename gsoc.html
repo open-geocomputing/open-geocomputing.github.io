@@ -19,7 +19,9 @@
 
 				<!-- Header -->
 					<header id="header">
+						<img src="images/digitalWorld.gif">
 						<a href="index.html" class="logo">Open Geocomputing</a>
+						<img src="">
 					</header>
 
 				<!-- Nav -->
@@ -49,7 +51,7 @@
 									<header>
 										<h2><a >OpenEEL <br>Open Earth Engine Libaray</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<a href="OpenEarthEngineLibrary" target="_blank" class="image fit"><img src="https://www.open-geocomputing.org/OpenEarthEngineLibrary/logo_white.svg" alt="" style="background: linear-gradient(to top right, #524ad0 10%, #D099FA); padding: 20px; border-radius: 30px;"/></a>
 									<p>Recently, an open and collaborative library for Google Earth Engine (GEE) was designed through a mapping between Github and GEE. This project is about extending functionality by provide efficient, reliable and versatile implementation of some algorithms use each day by numerous researchers in the world (Ōtsu threshold, time series interpolator, computation of watersheds,...) </p>
 								
 								</article>
@@ -58,21 +60,19 @@
 										<h2><a>EE-Machine Leraning<br />
 										Dectect multi source spatialy determine features</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
 									<p>Over the years ML, in particular convolution neural network, are coming a standard to integrate spatial information in classification/detection. With the help of the possibility provided by TensorFlow in Google Earth Engine (GEE), the next step is to develop a framework for non-ML experts to use variety of remotely sensed data to detect complex features. This project will be experimented with frozen lack detection using optical sensing as well as Synthetic Aperture Radar (SAR), an unsolved challenge for many years now.</p>
 								</article>
 								<article>
 									<header>
-										<h2><a>GEEex</a></h2>
+										<h2><a href='https://github.com/mgravey/GEEex'>GEEex</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
 									<p>GEEex is a Google Chrome extension for Google Earth Engine that allows direct import of dataset using standard ingestion files by simple drag and drop. This allows the ingestion of advance data set with separate band file, pyramid policy, band names, mask, etc. Furthermore, the extension allows direct search and import of datasets from Planet into GEE, through the GEE interface. Originally develop by reverse engineering, the extension needs to be upgraded with API recently released by Planet and GEE. In addition to Planet, integration of other data source provider is needed.</p>
 								</article>
 								<article>
 									<header>
 										<h2><a>Vegetation abundance using remote sensing</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+								
 									<p>
 									Remotely-sensed estimates of vegetation water content can be achieved using indices such as the Normalized Difference Water Index (NDWI), which provides a very good proxy for vegetation abundance in a given region. Quantifying global vegetation abundance and its change over time allows us to study the impact of climate change on ecosystem functioning. This project proposes to use multiple remote sensing products, such as LANDSAT derived dataset which are already available on google earth engine, to derive a spatiotemporal series of global vegetation abundance from early 1970s to 2020.
 									</p>
@@ -81,7 +81,7 @@
 									<header>
 										<h2><a>Mapping ephemeral features using Remote Sensing (snowpack, stream network)</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+								
 									<p>
 									The goal is to develop algorithm to detect, map and quantify naturally occurring ephemeral features such as intermittent stream network which are active only during the rainy part of the year, intermittent snowpack which are widespread in low elevation landscapes where they accumulate and disappear multiple times during the course of a year, etc. Detection of ephemeral features is a focal point of numerous research activities, with different scientific groups coming up with their own niche solution. In this project, we propose to develop a more generic structure that can be reused by other researchers. To test this approach, we propose to comprehensively validate this algorithm with global datasets of ephemeral snowpack and ephemeral stream network.
 									</p>
@@ -90,13 +90,13 @@
 									<header>
 										<h2><a>Detecting land parcels suitable for agriculture</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									
 									<p>
 									Food security is a major threat to prosperity in many regions around the world. Climate change might have dire consequences for global agriculture, hindering efforts of poverty alleviation. In this context, it is essential for farmers to adapt their crops to the environment where they grow them. Knowing the suitability of a place for crops is the starting point of a flourishing agricultural practice. This project will map the global suitability of land for various types of crops. Using satellite images from Google Earth Engine database and Machine learning algorithms, several variables including data on topography, soil, weather, water availability, etc. will be used to cluster places around the world based on their appropriateness for the cultivation of various crops (e.g. rice, wheat, millet, sorghum, sugar cane, fruits, etc.). The expected outputs are high-resolution maps of land suitability for agriculture, which will be accessible in a digital format. This project aims at combating poverty and supporting shared prosperity through sustainable and smart agriculture by making the food systems more productive and resilient to environmental changes.
 									</p>
 								</article>	
 							</section>
-						<h1>Geology</h1>
+						<!-- <h1>Geology</h1>
 							<section class="posts">
 								<article>
 									<header>
@@ -105,14 +105,13 @@
 									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 								</article>
-							</section>
+							</section> -->
 						<h1>Hydrology</h1>
 							<section class="posts">
 								<article>
 									<header>
 										<h2><a>N-source version of HydroMix</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
 									<p>
 									HydroMix is a Bayesian mixing model, used to undertake source apportionment with a focus on hydrological applications to answer questions like “how much groundwater is recharged from rainfall vs snowmelt”. The current implementation of HydroMix is limited to two sources. This project proposes to upgrade the model implementation to perform mixing over ‘N’ sources. This will allow handling more complex scenarios and extend the application of HydroMix to other disciplines such as sedimentology, ecology, animal diet use, etc.
 									</p>
@@ -122,16 +121,15 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2><a>GRF VS. MPS VS. ML, the battle</h2>
+										<h2><a>GRF VS. MPS VS. ML, the battle</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
 									<p>Kriging and it simulation derived (Gaussian Random Field) is a reference to geostatistics for a half-century now, in particular for its robust mathematical framework. Over the last two decades Multiple Point (geo)Statistics (MPS), is coming a reference to challenge non-Gaussian datasets, and its potential was many times demonstrated. More recently, with the last research in Machine Leraning, its interest in geoscience rises. If ML technology especially Deep Learning Generative modeling attracts lots of attention, its validity is today clearly unknown. <br> The goal of this project is to produce and test a tool chain, with standard datasets, and standard evaluation strategy, that allow experts in the field of comparing such method rapidly. The target is clearly to provide a solution that can benchmark all this approach, providing a comparison table (quality, computation time ...). In the context of this project, a set of methods and metric would be provided. However, the use of ML as metric would be encouraged !</p>
 								</article>
 								<article>
 									<header>
 										<h2><a>G2S: a toolbox for grided geostatistics</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									
 									<p>Over the recent year G2S allows users to easily interact with complex and high performance geostatistical code. Providing a simple and unified interface from MATLAB and Python, with the time many algorithms were added NDS, QS, DS and more recently a quick python development interface enabling experimenting of new algorithms. Now it's time for G2S to go growth faster, by embedding other standard geostatistical algorithm. Inclusion of (SNESIM, MPSLib, ...). This project is an ambitious project at the edge of many programming language MATLAB, Python, R, C/C++/OpenMP/CUDA. The goal is to make all this different language working in Synergie. The project requires to know most of this language (if one or two are missing you will learn it quickly ;) ) and not to be afraid of doing language interfaces. Creativity is welcome, some time the question is not how to interface codes, but how to do it with minimum effort (not rewrite all the interface), easy to maintain and keep efficiency.</p>
 								</article>
 							</section>
