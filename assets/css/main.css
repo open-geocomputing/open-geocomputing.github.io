@@ -4506,3 +4506,9 @@ body.is-loading #header {
 	transform: translateY(2rem);
 	opacity: 0;
 }
+
+.image.integrated-image {
+	float: left;
+	max-width: 200px;
+	margin: 0 1em 0 0;
+}
