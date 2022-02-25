@@ -4512,3 +4512,15 @@ body.is-loading #header {
 	max-width: 200px;
 	margin: 0 1em 0 0;
 }
+
+table td{
+	text-align: left;
+	vertical-align: middle;
+}
+
+table th{
+	width: 100px;
+	vertical-align: middle;
+	padding:0; 
+	padding-right: 10px;
+}
